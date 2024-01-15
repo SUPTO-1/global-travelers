@@ -53,27 +53,19 @@ nav a {
 /* meadia query */
 @media screen and (max-width: 600px) {
     /* for header section part */
-    body{
-        width: 420px;
-    }
-    header{
-        width: 300px;
-        margin: 18px 10px;
-    }
     nav>ul{
         display: none;
     }
+    .header-content{
+        margin-left: -90px;
+    }
     .header-title,.travelers{
-        margin-top: 50px;
-        margin-left: 10px;
-        width: 200px;
-        height: 28px;
         font-size: 1.5rem;
+        margin-top: 50px;
     }
     .bar{
         display: block;
-        margin-left: 200px;
-        margin-right: 0px;
+        margin-right: -80px;
         margin-top: 30px;
     }
 }
