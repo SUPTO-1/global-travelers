@@ -210,6 +210,74 @@ input::placeholder {
   justify-content: space-between;
   margin-bottom: 100px;
 }
+
+/* why choose us section starts here */
+.why-choose-us {
+  width: 1170px;
+  margin: 0px 135px 100px 135px;
+}
+.why-choose-us-content {
+  text-align: center;
+}
+.why-choose-us-title {
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+.why-choose-us-description {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  width: 643px;
+  height: 52px;
+  margin-left: 250px;
+  margin-bottom: 48px;
+}
+.box-container {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 15px;
+}
+.box1 {
+  width: 573px;
+  height: 284px;
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.box1-title {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+}
+.box1-description {
+  width: 486px;
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+}
+.box2 {
+  width: 573px;
+  height: 284px;
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.box3 {
+  width: 573px;
+  height: 284px;
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
+  padding-left: 20px;
+  padding-top: 20px;
+  margin: 20px auto 100px auto;
+}
 /* meadia query */
 @media screen and (max-width: 600px) {
   /* for header section part */
@@ -344,27 +412,80 @@ input::placeholder {
     flex-direction: column;
     margin-left: 20px;
   }
-  .maldives{
+  .maldives {
     margin-bottom: 20px;
+    height: 176px;
   }
   .destination-image-two {
     flex-direction: column;
     margin-left: 20px;
   }
-  .srilanka{
+  .srilanka {
     margin-bottom: 20px;
+    height: 176px;
   }
-  .newyork{
+  .newyork {
     margin-bottom: 20px;
+    height: 176px;
+  }
+  .kashmir {
+    height: 176px;
   }
   .destination-image-three {
     flex-direction: column;
     margin-left: 20px;
   }
-  .bangladesh{
+  .bangladesh {
     margin-bottom: 20px;
+    height: 176px;
   }
-  .bandarbad{
+  .bandarbad {
     margin-bottom: 100px;
+    height: 176px;
+  }
+
+  /* why you choose us section starts here  */
+  .why-choose-us {
+    height: 485px;
+    width: 360px;
+    flex-direction: column;
+    margin: 0px;
+    margin-top: 1050px;
+  }
+  .why-choose-us-title {
+    color: #131318;
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: 15px;
+  }
+  .why-choose-us-description {
+    width: 309px;
+    color: rgba(19, 19, 24, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 45px;
+  }
+  .box-container {
+    flex-direction: column;
+  }
+  .box1 {
+    width: 335px;
+    height: 289px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+  .box2 {
+    width: 335px;
+    height: 289px;
+    margin-left: 20px;
+  }
+  .box3 {
+    width: 335px;
+    height: 289px;
+    margin-left: 20px;
+  }
+  .box1-description{
+    width: 271px;
+    padding-bottom: 20px;
   }
 }
