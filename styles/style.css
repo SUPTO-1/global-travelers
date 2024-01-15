@@ -89,40 +89,39 @@ nav a {
   justify-content: space-around;
 }
 
-.banner-input input{
-    border-radius: 8px;
-    background: #FFF;
-    width: 174px;
-height: 52px;
-flex-shrink: 0;
+.banner-input input {
+  border-radius: 8px;
+  background: #fff;
+  width: 174px;
+  height: 52px;
 }
-input::placeholder{
-    color: rgba(19, 19, 24, 0.50);
-padding-left: 10px;
-font-size:1rem;
-font-weight: 400;
+input::placeholder {
+  color: rgba(19, 19, 24, 0.5);
+  padding-left: 10px;
+  font-size: 1rem;
+  font-weight: 400;
 }
-.when{
-    border-radius: 8px;
-    background: #FFF;
-    width: 174px;
-height: 52px;
-color: rgba(19, 19, 24, 0.50);
-font-size: 1rem;
-font-weight: 400;
-padding-left: 10px;
+.when {
+  border-radius: 8px;
+  background: #fff;
+  width: 174px;
+  height: 52px;
+  color: rgba(19, 19, 24, 0.5);
+  font-size: 1rem;
+  font-weight: 400;
+  padding-left: 10px;
 }
-.primary-btn{
-    border: 0px;
-    border-radius: 8px;
-background: #FF5400;
-width: 174px;
-height: 52px;
-flex-shrink: 0;
-color: #FFF;
-text-align: center;
-font-size: 1rem;
-font-weight: 700;
+.primary-btn {
+  border: 0px;
+  border-radius: 8px;
+  background: #ff5400;
+  width: 174px;
+  height: 52px;
+  flex-shrink: 0;
+  color: #fff;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 700;
 }
 
 /* meadia query */
@@ -145,9 +144,56 @@ font-weight: 700;
   }
   .bar {
     display: block;
-    margin-left: 200px;
+    margin-left: 150px;
     margin-top: 30px;
   }
 
   /* for banner section here */
+  .banner {
+    height: 485px;
+    width: 360px;
+    background-repeat: no-repeat;
+    margin: 18px 20px;
+  }
+  .banner-title {
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 800;
+    padding-left: 20px;
+    padding-right: 0px;
+    padding-top: 10px;
+  }
+  .banner-description {
+    width: 304px;
+    color: #fff;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 400;
+    padding-top: 40px;
+    padding-right: 0px;
+    padding-left: 40px;
+  }
+  .banner-input {
+    flex-direction: column;
+    width: 280px;
+    height: 240px;
+    margin: 0px;
+    /* margin-top: -40px; */
+    margin-left: 25px;
+    margin-right: 55px;
+  }
+  .banner-input input {
+    width: 255px;
+    height: 52px;
+    margin-bottom: 5px;
+  }
+  .when {
+    width: 263px;
+    height: 52px;
+    margin-bottom: 5px;
+  }
+  .primary-btn {
+    width: 263px;
+    height: 52px;
+  }
 }
