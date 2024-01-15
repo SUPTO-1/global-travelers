@@ -3,7 +3,7 @@ body {
 }
 /* header parts starts here */
 header {
-  /* width: 1170px; */
+  width: 1170px;
   margin: 50px 135px;
 }
 nav {
@@ -44,28 +44,110 @@ nav a {
   font-size: 3rem;
   font-weight: 800;
 }
-.bar{
-    display: none;
+.bar {
+  display: none;
 }
 
+/* banner section starts */
+.banner {
+  height: 500px;
+  width: 1170px;
+  margin: 0px 135px 50px 135px;
+  border-radius: 16px;
+  background: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url("../Images/Group\ 13.png");
+  text-align: center;
+}
+.banner-title {
+  color: #fff;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding: 106px 287px 0px 287px;
+}
+.banner-description {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: -40px;
+  padding: 0px 247px 0px 247px;
+  margin-bottom: 80px;
+}
+.banner-input {
+  width: 800px;
+  height: 60px;
+  margin: 0px 185px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+}
 
+.banner-input input{
+    border-radius: 8px;
+    background: #FFF;
+    width: 174px;
+height: 52px;
+flex-shrink: 0;
+}
+input::placeholder{
+    color: rgba(19, 19, 24, 0.50);
+padding-left: 10px;
+font-size:1rem;
+font-weight: 400;
+}
+.when{
+    border-radius: 8px;
+    background: #FFF;
+    width: 174px;
+height: 52px;
+color: rgba(19, 19, 24, 0.50);
+font-size: 1rem;
+font-weight: 400;
+padding-left: 10px;
+}
+.primary-btn{
+    border: 0px;
+    border-radius: 8px;
+background: #FF5400;
+width: 174px;
+height: 52px;
+flex-shrink: 0;
+color: #FFF;
+text-align: center;
+font-size: 1rem;
+font-weight: 700;
+}
 
 /* meadia query */
 @media screen and (max-width: 600px) {
-    /* for header section part */
-    nav>ul{
-        display: none;
-    }
-    .header-content{
-        margin-left: -90px;
-    }
-    .header-title,.travelers{
-        font-size: 1.5rem;
-        margin-top: 50px;
-    }
-    .bar{
-        display: block;
-        margin-right: -80px;
-        margin-top: 30px;
-    }
+  /* for header section part */
+  header {
+    max-width: 335px;
+    margin: 18px 20px;
+  }
+  nav > ul {
+    display: none;
+  }
+  .header-title,
+  .travelers {
+    margin-top: 50px;
+    margin-left: 10px;
+    width: 230px;
+    height: 28px;
+    font-size: 1.5rem;
+  }
+  .bar {
+    display: block;
+    margin-left: 200px;
+    margin-top: 30px;
+  }
+
+  /* for banner section here */
 }
