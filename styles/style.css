@@ -1,0 +1,46 @@
+body {
+  font-family: "Mulish", sans-serif;
+}
+/* header parts starts here */
+header {
+  width: 1170px;
+  margin: 50px 135px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav > ul {
+  display: flex;
+}
+nav ul li {
+  list-style: none;
+  padding-left: 20px;
+  color: var(--Dark-02, #424247);
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+nav a {
+  text-decoration: none;
+}
+.header-content {
+  display: flex;
+}
+.header-title{
+    color: #131318;
+font-size: 3rem;
+font-weight: 800;
+margin-left: 20px;
+}
+.header-content img{
+    width: 48px;
+height: 56.008px;
+position: relative;
+top: 38px;
+}
+.travelers{
+    color: #FF5400;
+font-size: 3rem;
+font-weight: 800;
+}
