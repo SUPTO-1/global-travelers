@@ -27,20 +27,49 @@ nav a {
 .header-content {
   display: flex;
 }
-.header-title{
-    color: #131318;
-font-size: 3rem;
-font-weight: 800;
-margin-left: 20px;
+.header-title {
+  color: #131318;
+  font-size: 3rem;
+  font-weight: 800;
+  margin-left: 20px;
 }
-.header-content img{
-    width: 48px;
-height: 56.008px;
-position: relative;
-top: 38px;
+.header-content img {
+  width: 48px;
+  height: 56.008px;
+  position: relative;
+  top: 38px;
 }
-.travelers{
-    color: #FF5400;
-font-size: 3rem;
-font-weight: 800;
+.travelers {
+  color: #ff5400;
+  font-size: 3rem;
+  font-weight: 800;
+}
+.bar{
+    display: none;
+}
+
+
+
+/* meadia query */
+@media screen and (max-width: 600px) {
+    /* for header section part */
+    header{
+        max-width: 335px;
+        margin: 18px 20px;
+    }
+    nav>ul{
+        display: none;
+    }
+    .header-title,.travelers{
+        margin-top: 50px;
+        margin-left: 10px;
+        width: 230px;
+        height: 28px;
+        font-size: 1.5rem;
+    }
+    .bar{
+        display: block;
+        margin-left: 200px;
+        margin-top: 30px;
+    }
 }
