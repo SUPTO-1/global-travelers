@@ -278,6 +278,70 @@ input::placeholder {
   padding-top: 20px;
   margin: 20px auto 100px auto;
 }
+
+/* user review section starts here  */
+.review {
+  width: 1170px;
+  margin: 0px 135px 100px 135px;
+}
+.review-content{
+  text-align: center;
+}
+.review-title{
+  color: #131318;
+font-size: 40px;
+font-weight: 800;
+}
+.review-description{
+  width: 643px;
+  color: rgba(19, 19, 24, 0.70);
+font-size: 16px;
+font-weight: 400;
+margin-left: 250px;
+  margin-bottom: 48px;
+}
+.traveler-review{
+  display: flex;
+  justify-content: space-between;
+  column-gap: 15px;
+  margin-bottom: 20px;
+}
+.first-traveler-review{
+  width: 573px;
+height: 284px;
+border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: #F9EFDB;
+padding-left: 20px;
+}
+.traveler-review2{
+  display: flex;
+  justify-content: space-between;
+  column-gap: 15px;
+}
+.first-traveler-name{
+  color: #131318;
+font-size: 24px;
+font-weight: 800;
+}
+.first-traveler-description{
+  color: #5A5A5D;
+font-size: 16px;
+font-weight: 400;
+margin-bottom: 10px;
+}
+.tour-cover{
+  color: #131318;
+font-size: 20px;
+font-weight: 400;
+margin-bottom: 10px;
+}
+.first-traveler-rating{
+  color: #131318;
+font-size: 20px;
+font-weight: 400;
+margin-bottom: 10px;
+}
 /* meadia query */
 @media screen and (max-width: 600px) {
   /* for header section part */
@@ -487,5 +551,40 @@ input::placeholder {
   .box1-description{
     width: 271px;
     padding-bottom: 20px;
+  }
+
+  /* traveler-review starts here */
+  .review{
+    height: 485px;
+    width: 360px;
+    flex-direction: column;
+    margin: 0px;
+    margin-top: 680px;
+  }
+  .review-title{
+    color: #131318;
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: 20px;
+  }
+  .review-description{
+    width: 309px;
+    color: rgba(19, 19, 24, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 45px;
+  }
+  .traveler-review{
+    flex-direction: column;
+  }
+  .traveler-review2{
+    flex-direction: column;
+    margin-bottom: 100px;
+  }
+  .first-traveler-review{
+    width: 335px;
+    height: 289px;
+    margin-bottom: 20px;
+    margin-left: 20px;
   }
 }
