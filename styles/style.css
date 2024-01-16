@@ -199,18 +199,95 @@ input::placeholder {
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
+  position: relative;
+}
+.destination-image-one-first {
+  position: relative;
+}
+.maldives-text {
+  position: absolute;
+  bottom: 40%;
+  left: 40%;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 800;
+}
+.destination-image-one-second {
+  position: relative;
+}
+.indenosia-text {
+  position: absolute;
+  bottom: 40%;
+  left: 40%;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 800;
 }
 .destination-image-two {
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
 }
+.destination-image-two-first{
+  position: relative;
+}
+.srilanka-text {
+  position: absolute;
+  bottom: 40%;
+  left: 38%;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 800;
+}
+.destination-image-two-second{
+  position: relative;
+}
+.newyork-text {
+  position: absolute;
+  bottom: 40%;
+  left: 38%;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 800;
+}
+.destination-image-two-third{
+  position: relative;
+}
+.kashmir-text {
+  position: absolute;
+  bottom: 40%;
+  left: 35%;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 800;
+}
 .destination-image-three {
   display: flex;
   justify-content: space-between;
   margin-bottom: 100px;
 }
-
+.destination-image-three-first{
+  position: relative;
+}
+.bangladesh-text {
+  position: absolute;
+  bottom: 40%;
+  left: 35%;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 800;
+}
+.destination-image-three-second{
+  position: relative;
+}
+.bandarban-text {
+  position: absolute;
+  bottom: 40%;
+  left: 40%;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 800;
+}
 /* why choose us section starts here */
 .why-choose-us {
   width: 1170px;
@@ -628,20 +705,27 @@ input::placeholder {
     margin-bottom: 20px;
     height: 176px;
   }
+  .indenosia {
+    width: 335px;
+    height: 175.393px;
+  }
   .destination-image-two {
     flex-direction: column;
     margin-left: 20px;
   }
   .srilanka {
     margin-bottom: 20px;
+    width: 335px;
     height: 176px;
   }
   .newyork {
     margin-bottom: 20px;
     height: 176px;
+    width: 335px;
   }
   .kashmir {
     height: 176px;
+    width: 335px;
   }
   .destination-image-three {
     flex-direction: column;
@@ -650,10 +734,41 @@ input::placeholder {
   .bangladesh {
     margin-bottom: 20px;
     height: 176px;
+    width: 335px;
   }
-  .bandarbad {
+  .bandarban {
     margin-bottom: 100px;
     height: 176px;
+    width: 335px;
+  }
+
+  /* text fomating */
+  .maldives-text{
+    left: 35%;
+  }
+  .indenosia-text{
+    bottom: 32%;
+    left: 32%;
+  }
+  .srilanka-text{
+    left: 32%;
+    bottom: 32%;
+  }
+  .newyork-text{
+    left: 32%;
+    bottom: 32%;
+  }
+  .kashmir-text{
+    left: 32%;
+    bottom: 32%;
+  }
+  .bangladesh-text{
+    left: 32%;
+    bottom: 32%;
+  }
+  .bandarban-text{
+    bottom: 55%;
+    left: 32%;
   }
 
   /* why you choose us section starts here  */
@@ -827,23 +942,23 @@ input::placeholder {
     font-size: 19.543px;
     font-weight: 800;
   }
-  .footer-description{
+  .footer-description {
     width: 287px;
-    color: #5A5A5D;
-font-size: 14px;
-font-weight: 400;
-margin-left: 70px;
+    color: #5a5a5d;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 70px;
   }
-  .icons{
+  .icons {
     margin-left: -110px;
   }
-  .line2{
+  .line2 {
     width: 335px;
-height: 1px;
-background: rgba(19, 19, 24, 0.10);
-margin-left: 60px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.1);
+    margin-left: 60px;
   }
-  .footer-copy{
+  .footer-copy {
     margin-left: -90px;
     margin-bottom: 20px;
   }
